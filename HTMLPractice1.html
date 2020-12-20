@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<script src="https://kit.fontawesome.com/c8508fa29a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<i class="fas fa-search"></i>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>My first form practice</title>
+
+    <style>
+        body {
+            font-family: "sofia", sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#search">Search</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <h1>Sign up</h1>
+    <form>
+        <label for="firstname">First Name:</label><br />
+        <input type="text" id="firstname" name="firstname" placeholder="First Name" maxlength="20" size="35" autofocus required/><br />
+        <label for="lastname">Last Name:</label><br />
+        <input type="text" id="lastname" name="lastname" placeholder="Last Name" maxlength="20" size="35" autofocus required /><br>
+        <input type="email" id="email" name="email" placeholder="email@example.com" maxlength="30" size="35" autofocus required/><br />
+        <input type="button" id="submit" value="submit" />
+    </form>
+    <form>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+    </form>
+    <form>
+        <input type="checkbox" id="transpo1" name="feet" value="feet" />
+        <label for="transpo1">I have only my 2 feet</label>
+        <input type="checkbox" id="transpo2" name="skateboard" value="skateboard" />
+        <label for="transpo2">I have a skateboard</label>
+        <input type="checkbox" id="transpo3" name="bicycle" value="bicycle" />
+        <label for="transpo3">I have a bicycle</label>
+        <input type="checkbox" id="transpo4" name="car" value="car" />
+        <label for="transpo4">I have a car</label>
+        <input type="checkbox" id="transpo5" name="plane" value="plane" />
+        <label for="transpo5">I have a plane</label>
+    </form>
+    <h4>Enter Birthday</h4>
+</body>
+</html>
