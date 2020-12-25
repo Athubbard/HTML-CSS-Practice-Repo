@@ -1,0 +1,68 @@
+﻿
+
+.header {
+    background-color: #8250a3;
+    background-image: linear-gradient(#310d63, #98959c);
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+#firstname {
+    height: 25px;
+    width: 325px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: auto;
+}
+
+#lastname {
+    height: 25px;
+    width: 325px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: auto;
+}
+
+#email {
+    height: 25px;
+    width: 325px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: auto;
+}
+
+#submit {
+    width: 85px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #0da305;
+    color: white;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+#transpo1 {
+    margin-top: 15px;
+}
